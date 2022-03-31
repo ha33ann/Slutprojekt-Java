@@ -1,0 +1,72 @@
+<html><body>
+
+    <h1>HomePage</h1>
+
+    <h2>Math</h2>
+    <form action="http://localhost:8080/calcadd"  method="post">
+    
+        <h3>Addition</h3>
+    Nummer 1: <input type="number" name="nummer1">
+    Nummer 2: <input type="number" name="nummer2">
+    
+    <input type="submit" value="ok">
+    
+    </form>
+    
+    <form action="http://localhost:8080/calcsub"  method="POST">
+
+        <h3>Subtraktion</h3>
+        Nummer 1: <input type="number" name="nummer1">
+        Nummer 2: <input type="number" name="nummer2">
+
+        <input type="submit" value="ok">
+
+        </form>
+
+        <form action="http://localhost:8080/calcmult"  method="POST">
+
+            <h3>Multiplikation</h3>
+            Nummer 1: <input type="number" name="nummer1">
+            Nummer 2: <input type="number" name="nummer2">
+    
+            <input type="submit" value="ok">
+    
+            </form>
+
+            <form action="http://localhost:8080/calcdiv"  method="POST">
+
+                <h3>Division</h3>
+                Nummer 1: <input type="number" name="nummer1">
+                Nummer 2: <input type="number" name="nummer2">
+        
+                <input type="submit" value="ok">
+        
+                </form>
+
+                <h2>Image</h2>
+
+                <form action="http://localhost:8080/img" method="get">
+                    <h3>Click here for random image of either strawberry or blueberry</h3>
+
+                    <input type="submit" value="Image">
+                </form>
+
+                <h2>Game</h2>
+                        <form action="http://localhost:8080/choice"  method="POST">
+
+                            <p>(Added an error message that shows if player does not chose rock, paper or scissors)</p>
+
+                            <h3>chose (rock, paper or scissors):</h3> <input type="text" name="choice">
+                    
+                            <input type="submit" value="ok">
+                    
+                            </form>
+
+                            <h2>CSV</h2>
+                            <form action="http://localhost:8080/showCsvFile" method="GET">
+                                <h3>Click here to get the sample.csv text as JSON</h3>
+            
+                                <input type="submit" value="JSON">
+                            </form>
+
+    </body></html>
